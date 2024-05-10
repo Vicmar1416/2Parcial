@@ -1,12 +1,11 @@
 import React from 'react';
-import P2Img from './P2Img.jpg';
 
-function Comp2(){
+const comp2 = () => {
     return(
-        <div>
-            <img src="{P2Img}" alt='P2Img'/>
+        <div className='img-container'>
+            <img src='/.assets/gym.jpg'></img>
         </div>
-    );
+    )
 }
 
-export default Comp2;
+export default comp2
