@@ -7,8 +7,8 @@ function App() {
 
   return (
     <div className='App'>
-        <comp2/>
-        <comp1/>
+        <comp2 />
+        <comp1 />
     </div>
   );
 }
